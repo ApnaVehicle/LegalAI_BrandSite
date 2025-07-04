@@ -2,7 +2,7 @@ import Footer5 from "@/components/footers/Footer5";
 import Header5 from "@/components/headers/Header5";
 import Home5 from "@/components/homes/home-5";
 import Hero1 from "@/components/homes/home-5/heros/Hero1";
-import { elegantMultipageDark } from "@/data/menu";
+import { ligitNavigation } from "@/data/menu";
 import ParallaxContainer from "@/components/common/ParallaxContainer";
 
 export const metadata = {
@@ -19,14 +19,14 @@ export default function Home() {
         <div className="dark-mode">
           <div className="page bg-dark-1" id="top">
             <nav className="main-nav dark dark-mode transparent stick-fixed wow-menubar">
-              <Header5 links={elegantMultipageDark} />
+              <Header5 links={ligitNavigation} />
             </nav>
             <main id="main">
               <ParallaxContainer
                 className="home-section bg-dark-alpha-30 parallax-5 light-content z-index-1 scrollSpysection"
                 style={{
                   backgroundImage:
-                    "url(/assets/images/demo-elegant/section-bg-1.jpg)",
+                    "url(/assets/images/demo-elegant/legal_ai_background_1920x1080.png)",
                 }}
                 id="home"
               >

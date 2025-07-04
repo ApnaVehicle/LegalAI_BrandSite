@@ -4430,6 +4430,7 @@ __turbopack_esm__({
     "gradientMultipage": (()=>gradientMultipage),
     "gradientMultipageDark": (()=>gradientMultipageDark),
     "gradientOnePage": (()=>gradientOnePage),
+    "ligitNavigation": (()=>ligitNavigation),
     "mainDemoOnepage": (()=>mainDemoOnepage),
     "menuItems": (()=>menuItems),
     "menuItemsDark": (()=>menuItemsDark),
@@ -4962,6 +4963,32 @@ const elegantOnepage = [
     },
     {
         href: "#contact",
+        text: "Contact"
+    }
+];
+const ligitNavigation = [
+    {
+        href: "/",
+        text: "Ligit"
+    },
+    {
+        href: "/about",
+        text: "About"
+    },
+    {
+        href: "/services",
+        text: "Services"
+    },
+    {
+        href: "/portfolio",
+        text: "Portfolio"
+    },
+    {
+        href: "/blog",
+        text: "Blog"
+    },
+    {
+        href: "/contact",
         text: "Contact"
     }
 ];
@@ -7049,7 +7076,7 @@ function Home() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                                 className: "main-nav dark dark-mode transparent stick-fixed wow-menubar",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$headers$2f$Header5$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                    links: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$menu$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["elegantMultipageDark"]
+                                    links: __TURBOPACK__imported__module__$5b$project$5d2f$data$2f$menu$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ligitNavigation"]
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.jsx",
                                     lineNumber: 22,
@@ -7066,7 +7093,7 @@ function Home() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$common$2f$ParallaxContainer$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         className: "home-section bg-dark-alpha-30 parallax-5 light-content z-index-1 scrollSpysection",
                                         style: {
-                                            backgroundImage: "url(/assets/images/demo-elegant/section-bg-1.jpg)"
+                                            backgroundImage: "url(/assets/images/demo-elegant/legal_ai_background_1920x1080.png)"
                                         },
                                         id: "home",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$homes$2f$home$2d$5$2f$heros$2f$Hero1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {

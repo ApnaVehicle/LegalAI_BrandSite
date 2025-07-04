@@ -628,7 +628,7 @@ function Header5({ links }) {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "btn-animate-y-1",
-                                                children: "Buy Resonance"
+                                                children: "Try Ligit"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/headers/Header5.jsx",
                                                 lineNumber: 48,
@@ -637,7 +637,7 @@ function Header5({ links }) {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "btn-animate-y-2",
                                                 "aria-hidden": "true",
-                                                children: "Buy Resonance"
+                                                children: "Try Ligit"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/headers/Header5.jsx",
                                                 lineNumber: 49,

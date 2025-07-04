@@ -153,6 +153,15 @@ export const elegantOnepage = [
   { href: "#contact", text: "Contact" },
 ];
 
+export const ligitNavigation = [
+  { href: "/", text: "Ligit" },
+  { href: "/about", text: "About" },
+  { href: "/services", text: "Services" },
+  { href: "/portfolio", text: "Portfolio" },
+  { href: "/blog", text: "Blog" },
+  { href: "/contact", text: "Contact" },
+];
+
 export const corporateMultipage = [
   { href: "/corporate-multi-page", text: "Home" },
   { href: "/corporate-about", text: "About" },

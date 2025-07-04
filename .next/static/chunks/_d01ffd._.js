@@ -21,7 +21,10 @@ function ParallaxContainer(props) {
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "ParallaxContainer.useEffect": ()=>{
             (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$jarallax$2f$dist$2f$jarallax$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jarallax"])(document.querySelectorAll(".parallax-5"), {
-                speed: 0.5
+                speed: 0.5,
+                imgPosition: "top center",
+                imgSize: "cover",
+                disableParallax: false
             });
         }
     }["ParallaxContainer.useEffect"], []);
@@ -30,7 +33,7 @@ function ParallaxContainer(props) {
         children: props.children
     }, void 0, false, {
         fileName: "[project]/components/common/Parallax.jsx",
-        lineNumber: 13,
+        lineNumber: 16,
         columnNumber: 5
     }, this);
 }

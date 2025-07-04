@@ -4288,7 +4288,7 @@ function Hero1() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         className: "section-title-tiny mb-50 mb-sm-30 wow fadeInDownShort",
-                        children: "Hello & Welcome"
+                        children: "Welcome to LIGIT AI"
                     }, void 0, false, {
                         fileName: "[project]/components/homes/home-5/heros/Hero1.jsx",
                         lineNumber: 9,
@@ -4300,7 +4300,7 @@ function Hero1() {
                             className: "wow charsAnimInLong",
                             "data-splitting": "chars",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$common$2f$AnimatedText$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                text: "Resonance Creative Studio"
+                                text: "Turning Chaos into Clarity"
                             }, void 0, false, {
                                 fileName: "[project]/components/homes/home-5/heros/Hero1.jsx",
                                 lineNumber: 14,
@@ -4327,7 +4327,7 @@ function Hero1() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "link-strong link-strong-unhovered",
                                     children: [
-                                        "Discover Now",
+                                        "Discover Your Legal Associate Now",
                                         " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                                             className: "mi-arrow-right size-18 align-middle",
@@ -4347,7 +4347,7 @@ function Hero1() {
                                     className: "link-strong link-strong-hovered",
                                     "aria-hidden": "true",
                                     children: [
-                                        "Discover Now",
+                                        "Discover Your Legal Associate Now",
                                         " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                                             className: "mi-arrow-right size-18 align-middle",
@@ -4969,7 +4969,7 @@ const elegantOnepage = [
 const ligitNavigation = [
     {
         href: "#home",
-        text: "Ligit",
+        text: "Home",
         className: "active"
     },
     {
@@ -7094,12 +7094,14 @@ function Home() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$common$2f$ParallaxContainer$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         className: "home-section bg-dark-alpha-30 parallax-5 light-content z-index-1 scrollSpysection",
                                         style: {
-                                            backgroundImage: "url(/assets/images/demo-elegant/legal_ai_background_1920x1080.png)"
+                                            backgroundImage: "url(/assets/images/demo-elegant/scales_of_justice_hero.jpg)",
+                                            backgroundPosition: "top center",
+                                            backgroundSize: "cover"
                                         },
                                         id: "home",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$homes$2f$home$2d$5$2f$heros$2f$Hero1$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                             fileName: "[project]/app/page.jsx",
-                                            lineNumber: 33,
+                                            lineNumber: 35,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
@@ -7112,7 +7114,7 @@ function Home() {
                                         onePage: true
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.jsx",
-                                        lineNumber: 36,
+                                        lineNumber: 38,
                                         columnNumber: 15
                                     }, this)
                                 ]
@@ -7125,12 +7127,12 @@ function Home() {
                                 className: "bg-dark-2 light-content footer z-index-1 position-relative",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$footers$2f$Footer5$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                     fileName: "[project]/app/page.jsx",
-                                    lineNumber: 39,
+                                    lineNumber: 41,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.jsx",
-                                lineNumber: 38,
+                                lineNumber: 40,
                                 columnNumber: 13
                             }, this)
                         ]

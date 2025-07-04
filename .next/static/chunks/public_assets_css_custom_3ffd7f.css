@@ -117,4 +117,14 @@ html {
   scroll-behavior: smooth !important;
 }
 
+.home-section.parallax-5 {
+  background-position: top !important;
+  background-position-y: top !important;
+}
+
+.home-section.parallax-5 .jarallax-img {
+  object-position: top center !important;
+  transform-origin: top !important;
+}
+
 /*# sourceMappingURL=public_assets_css_custom_3ffd7f.css.map*/

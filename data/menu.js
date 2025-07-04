@@ -154,7 +154,7 @@ export const elegantOnepage = [
 ];
 
 export const ligitNavigation = [
-  { href: "#home", text: "Ligit", className: "active" },
+  { href: "#home", text: "Home", className: "active" },
   { href: "#about", text: "About" },
   { href: "#services", text: "Services" },
   { href: "#portfolio", text: "Portfolio" },

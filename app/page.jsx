@@ -26,7 +26,9 @@ export default function Home() {
                 className="home-section bg-dark-alpha-30 parallax-5 light-content z-index-1 scrollSpysection"
                 style={{
                   backgroundImage:
-                    "url(/assets/images/demo-elegant/legal_ai_background_1920x1080.png)",
+                    "url(/assets/images/demo-elegant/scales_of_justice_hero.jpg)",
+                  backgroundPosition: "top center",
+                  backgroundSize: "cover",
                 }}
                 id="home"
               >

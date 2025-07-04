@@ -34778,6 +34778,16 @@ html {
   scroll-behavior: smooth !important;
 }
 
+.home-section.parallax-5 {
+  background-position: top !important;
+  background-position-y: top !important;
+}
+
+.home-section.parallax-5 .jarallax-img {
+  object-position: top center !important;
+  transform-origin: top !important;
+}
+
 
 /* [project]/public/assets/css/style-responsive.css [app-client] (css, ) */
 @media only screen and (width <= 1440px) {

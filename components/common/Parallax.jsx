@@ -7,6 +7,9 @@ export default function ParallaxContainer(props) {
   useEffect(() => {
     jarallax(document.querySelectorAll(".parallax-5"), {
       speed: 0.5,
+      imgPosition: "top center",
+      imgSize: "cover",
+      disableParallax: false
     });
   }, []);
   return (

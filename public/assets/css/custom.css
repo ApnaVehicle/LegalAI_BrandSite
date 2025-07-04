@@ -98,3 +98,15 @@ a {
 html {
   scroll-behavior: smooth !important;
 }
+
+/* Fix for parallax background positioning */
+.home-section.parallax-5 {
+  background-position: top center !important;
+  background-position-y: top !important;
+}
+
+/* Ensure jarallax container positions from top */
+.home-section.parallax-5 .jarallax-img {
+  object-position: top center !important;
+  transform-origin: top center !important;
+}

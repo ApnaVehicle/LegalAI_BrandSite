@@ -7,11 +7,11 @@ export default function Hero1() {
       {/* Home Section Content */}
       <div className="home-content text-center">
         <h2 className="section-title-tiny mb-50 mb-sm-30 wow fadeInDownShort">
-          Hello &amp; Welcome
+          Welcome to LIGIT AI
         </h2>
         <h1 className="hs-title-3 mb-80 mb-sm-50 mb-xs-30">
           <span className="wow charsAnimInLong" data-splitting="chars">
-            <AnimatedText text="Resonance Creative Studio" />
+            <AnimatedText text="Turning Chaos into Clarity" />
           </span>
         </h1>
         <div className="local-scroll wow fadeInUpShort" data-wow-delay="0.57s">
@@ -21,7 +21,7 @@ export default function Hero1() {
             data-link-animate="y"
           >
             <span className="link-strong link-strong-unhovered">
-              Discover Now{" "}
+              Discover Your Legal Associate Now{" "}
               <i
                 className="mi-arrow-right size-18 align-middle"
                 aria-hidden="true"
@@ -31,7 +31,7 @@ export default function Hero1() {
               className="link-strong link-strong-hovered"
               aria-hidden="true"
             >
-              Discover Now{" "}
+              Discover Your Legal Associate Now{" "}
               <i
                 className="mi-arrow-right size-18 align-middle"
                 aria-hidden="true"

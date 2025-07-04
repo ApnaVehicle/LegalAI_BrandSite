@@ -1,0 +1,9 @@
+{
+  "app": {
+    "[project]/app/page": [],
+    "[project]/app/(homes)/(home-5)/(main-demo)/elegant-multi-page-dark/page": []
+  },
+  "appUsingSizeAdjust": false,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

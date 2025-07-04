@@ -1,0 +1,5 @@
+{
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(homes)/(home-5)/(main-demo)/elegant-multi-page-dark/page": "app/(homes)/(home-5)/(main-demo)/elegant-multi-page-dark/page.js"
+}

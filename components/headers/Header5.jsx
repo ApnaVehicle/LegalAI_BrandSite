@@ -45,9 +45,9 @@ export default function Header5({ links }) {
                 data-btn-animate="y"
               >
                 <span className="btn-animate-y">
-                  <span className="btn-animate-y-1">Buy Resonance</span>
+                  <span className="btn-animate-y-1">Try Ligit</span>
                   <span className="btn-animate-y-2" aria-hidden="true">
-                    Buy Resonance
+                    Try Ligit
                   </span>
                 </span>
               </span>

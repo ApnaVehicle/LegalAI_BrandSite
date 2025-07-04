@@ -7,9 +7,9 @@ import ParallaxContainer from "@/components/common/ParallaxContainer";
 
 export const metadata = {
   title:
-    "Home 5 Main Demo MultiPage Dark || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Ligit — Legal AI Assistant",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Ligit — Your Intelligent Legal AI Assistant",
 };
 
 export default function Home() {

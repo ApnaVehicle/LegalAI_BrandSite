@@ -18,7 +18,7 @@ export default function Hero3() {
                 className="section-caption mb-30 mb-xs-10 wow fadeInUp"
                 data-wow-duration="1.2s"
               >
-                Resonance Creative Studio
+                Ligit Legal AI
               </h2>
               <h1 className="hs-title-1 mb-30">
                 <span className="wow charsAnimIn" data-splitting="chars">
@@ -32,8 +32,8 @@ export default function Hero3() {
                     data-wow-delay="0.6s"
                     data-wow-duration="1.2s"
                   >
-                    Resonance is a full-service studio creating beautiful
-                    digital experiences and products.
+                    Ligit is an intelligent legal AI assistant designed to streamline
+                    your legal workflows and enhance productivity.
                   </p>
                 </div>
               </div>

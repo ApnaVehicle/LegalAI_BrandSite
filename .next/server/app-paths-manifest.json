@@ -1,5 +1,10 @@
 {
   "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(homes)/(home-5)/(main-demo)/elegant-multi-page-dark/page": "app/(homes)/(home-5)/(main-demo)/elegant-multi-page-dark/page.js"
+  "/(homes)/(home-5)/(main-demo)/elegant-multi-page-dark/page": "app/(homes)/(home-5)/(main-demo)/elegant-multi-page-dark/page.js",
+  "/(about)/elegant-about-dark/page": "app/(about)/elegant-about-dark/page.js",
+  "/(services)/elegant-services-dark/page": "app/(services)/elegant-services-dark/page.js",
+  "/(portfolio)/elegant-portfolio-dark/page": "app/(portfolio)/elegant-portfolio-dark/page.js",
+  "/(blogs)/elegant-blog-dark/page": "app/(blogs)/elegant-blog-dark/page.js",
+  "/(contact)/elegant-contact-dark/page": "app/(contact)/elegant-contact-dark/page.js"
 }

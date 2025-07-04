@@ -26,7 +26,7 @@ export default function Footer5() {
           <a
             href={elm.href}
             key={i}
-            title="Facebook"
+            title={elm.title}
             rel="noopener nofollow"
             target="_blank"
           >

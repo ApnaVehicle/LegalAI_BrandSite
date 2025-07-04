@@ -8,12 +8,12 @@ export default function Blog() {
       <div className="row mb-70 mb-sm-50">
         <div className="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
           <h2 className="section-title mb-30 mb-sm-20">
-            <span className="text-gray">Our</span> Blog
+            Sharp Takes from the Frontline of Legal AI
             <span className="text-gray">.</span>
           </h2>
           <div className="text-gray">
-            Organic shapes are irregular shapes that are often complex and
-            resemble shapes that are found in nature.
+            Insights, breakdowns, and thought experiments at the intersection of law and technology. 
+            Curated by legal engineers, not content marketers.
           </div>
         </div>
         <div className="col-md-2 col-lg-3 text-center text-md-end mt-10 mt-sm-30">

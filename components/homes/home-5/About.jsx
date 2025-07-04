@@ -14,18 +14,17 @@ export default function About() {
             <div className="spot-box-icon float-end ms-3" />
             <div className="spot-box-text text-end">
               <span className="text-gray">
-                We've helped more <br />
-                than
+                Trained on over <br />
               </span>
-              90 brands.
+              10M+ legal documents.
             </div>
           </div>
           <Image
-            src="/assets/images/demo-elegant/section-image-1.jpg"
+            src="/assets/images/demo-elegant/legal-documents-training.png"
             width={400}
             height={489}
             className="w-100 round"
-            alt="Image Description"
+            alt="AI trained on millions of legal documents"
           />
         </div>
         <div
@@ -35,20 +34,19 @@ export default function About() {
           data-rellax-percentage="0.5"
         >
           <Image
-            src="/assets/images/demo-elegant/section-image-2.jpg"
+            src="/assets/images/demo-elegant/ai-speed-performance.png"
             width={400}
             height={489}
             className="w-100 round"
-            alt="Image Description"
+            alt="Fast AI response time under 3 seconds"
           />
           <div className="spot-box clearfix mt-30">
             <div className="spot-box-icon float-start me-3" />
             <div className="spot-box-text">
               <span className="text-gray">
-                We design interfaces <br />
-                for over
+                Built exclusively for <br />
               </span>
-              10 years.
+              Indian legal system.
             </div>
           </div>
         </div>

@@ -232,3 +232,30 @@ export const services6 = [
     text: "A brand is a name, term, design, lorem ipsum symbol or any other feature that identifies one seller's good or service as distinct from those of other sellers.",
   },
 ];
+
+export const ligitServices = [
+  {
+    width: 64,
+    height: 64,
+    path: "M31 2c16.016 0 29 12.984 29 29s-12.984 29-29 29-29-12.984-29-29 12.984-29 29-29zm0 55c14.359 0 26-11.641 26-26s-11.641-26-26-26-26 11.641-26 26 11.641 26 26 26zm-1.5-41.5v-0.5h3v0.5c0 0.828-0.672 1.5-1.5 1.5s-1.5-0.672-1.5-1.5zm0 33v-0.5h3v0.5c0 0.828-0.672 1.5-1.5 1.5s-1.5-0.672-1.5-1.5zm15.5-17.5h0.5v3h-0.5c-0.828 0-1.5-0.672-1.5-1.5s0.672-1.5 1.5-1.5zm-28 0h0.5v3h-0.5c-0.828 0-1.5-0.672-1.5-1.5s0.672-1.5 1.5-1.5zm24-8.5l2.5 2.5-2.172 2.172c-0.578 0.578-1.516 0.578-2.094 0-0.281-0.281-0.438-0.656-0.438-1.047s0.156-0.766 0.438-1.047l1.766-1.578zm-18.203 0l1.875 1.594c0.578 0.578 0.578 1.516 0 2.094s-1.516 0.578-2.094 0l-2.172-2.172 2.391-2.516zm18.203 18.5l-1.875 1.594c-0.578 0.578-0.578 1.516 0 2.094s1.516 0.578 2.094 0l2.172-2.172-2.391-2.516zm-20.5 0l-2.5 2.5 2.172 2.172c0.578 0.578 1.516 0.578 2.094 0 0.281-0.281 0.438-0.656 0.438-1.047s-0.156-0.766-0.438-1.047l-1.766-1.578zm10.5-18.5c-5.25 0-9.5 4.25-9.5 9.5s4.25 9.5 9.5 9.5 9.5-4.25 9.5-9.5-4.25-9.5-9.5-9.5zm0 16c-3.594 0-6.5-2.906-6.5-6.5s2.906-6.5 6.5-6.5 6.5 2.906 6.5 6.5-2.906 6.5-6.5 6.5zm0-11c-2.484 0-4.5 2.016-4.5 4.5s2.016 4.5 4.5 4.5 4.5-2.016 4.5-4.5-2.016-4.5-4.5-4.5zm1.5 3h-3v3h1.5v-1.5h1.5v-1.5z",
+    title: "Research",
+    tagline: "No more Ctrl+F. Welcome to Ctrl+Clarity.",
+    text: "Ask complex legal questions. Compare citations. Extract structured reasoning across jurisdictions. Ligit's proprietary research engine delivers case-specific insights with >90% reliability — trained on Indian law, not just internet noise."
+  },
+  {
+    width: 64,
+    height: 64,
+    path: "M56 10v44h-48v-44h48zm-2 2h-44v40h44v-40zm-38 6h32v2h-32v-2zm0 6h32v2h-32v-2zm0 6h24v2h-24v-2zm0 6h28v2h-28v-2zm0 6h20v2h-20v-2zm28-20h-4v-4h4v4zm0 6h-4v-4h4v4zm0 6h-4v-4h4v4zm0 6h-4v-4h4v4zm0 6h-4v-4h4v4z",
+    title: "List of Dates",
+    tagline: "Turn confusion into courtroom-ready chronology.",
+    text: "Upload a case file. Get a structured timeline in seconds. From filing to final orders, Ligit extracts and organizes key events — so you can build, argue, or defend with crystal precision."
+  },
+  {
+    width: 64,
+    height: 64,
+    path: "M32 8c13.234 0 24 10.766 24 24s-10.766 24-24 24-24-10.766-24-24 10.766-24 24-24zm0 46c12.131 0 22-9.869 22-22s-9.869-22-22-22-22 9.869-22 22 9.869 22 22 22zm-8-32h16c0.552 0 1 0.448 1 1v18c0 0.552-0.448 1-1 1h-16c-0.552 0-1-0.448-1-1v-18c0-0.552 0.448-1 1-1zm1 18h14v-16h-14v16zm2-14h10v2h-10v-2zm0 4h10v2h-10v-2zm0 4h10v2h-10v-2zm0 4h6v2h-6v-2zm-9-16c0-7.732 6.268-14 14-14s14 6.268 14 14h-2c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12v2c-7.732 0-14-6.268-14-14z",
+    title: "Translation",
+    tagline: "Legal translation that doesn't miss context.",
+    text: "Whether it's Marathi, Hindi, Tamil or Bengali — Ligit reads, understands, and converts legal documents into clean English with >90% accuracy. Not just word-by-word. Context-aware, clause-accurate translation tailored for legal use."
+  }
+];

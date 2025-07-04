@@ -40,13 +40,12 @@ export default function Footer5() {
       <div className="footer-text">
         {/* Copyright */}
         <div>
-          <a href="https://themeforest.net/user/ib-themes/portfolio">
-            © IB-Themes {new Date().getFullYear()}
-          </a>
-          .
+          © Ligit AI {new Date().getFullYear()}. All rights reserved.
         </div>
         {/* End Copyright */}
-        <div className="footer-made">Made with love for great people.</div>
+        <div className="footer-made">
+          Ligit is built by <strong>Inflekt Core</strong>. Based in India. Serving the world.
+        </div>
       </div>
       {/* End Footer Text */}
     </div>

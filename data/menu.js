@@ -161,6 +161,14 @@ export const ligitNavigation = [
   { href: "#contact", text: "Contact" },
 ];
 
+export const ligitNavigationMultipage = [
+  { href: "/", text: "Home" },
+  { href: "/#about", text: "About" },
+  { href: "/#services", text: "Services" },
+  { href: "/#pricing", text: "Pricing" },
+  { href: "/#contact", text: "Contact" },
+];
+
 export const corporateMultipage = [
   { href: "/corporate-multi-page", text: "Home" },
   { href: "/corporate-about", text: "About" },

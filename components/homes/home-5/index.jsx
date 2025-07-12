@@ -250,8 +250,8 @@ export default function Home5({ onePage = false, dark = false }) {
                 <span className="text-gray">.</span>
               </h2>
               <div className="text-gray">
-                Paints such as oil, acrylic, and encaustic are thicker and more
-                opaque and are used to create impressions on the surface.
+                Have questions or need assistance? We're here to help. 
+                Reach out to our team for support, inquiries, or to learn more about how Ligit can transform your legal practice.
               </div>
             </div>
           </div>

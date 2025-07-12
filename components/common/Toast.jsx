@@ -1,12 +1,24 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 export default function Toast({ show, onClose, message, type = "success" }) {
+  const [isVisible, setIsVisible] = useState(false);
+  const [shouldRender, setShouldRender] = useState(false);
+
   useEffect(() => {
     if (show) {
+      setShouldRender(true);
+      // Small delay to ensure the element is in the DOM before animating
+      setTimeout(() => setIsVisible(true), 10);
+      
       const timer = setTimeout(() => {
-        onClose();
+        setIsVisible(false);
+        setTimeout(() => {
+          setShouldRender(false);
+          onClose();
+        }, 300); // Wait for animation to finish
       }, 5000);
+      
       return () => clearTimeout(timer);
     }
   }, [show, onClose]);
@@ -40,6 +52,9 @@ export default function Toast({ show, onClose, message, type = "success" }) {
 
   const currentColor = colors[type];
 
+  // Don't render anything if not needed
+  if (!shouldRender) return null;
+
   return (
     <>
       <style jsx>{`
@@ -48,8 +63,8 @@ export default function Toast({ show, onClose, message, type = "success" }) {
           top: 100px;
           right: 30px;
           z-index: 9999;
-          transform: ${show ? "translateX(0)" : "translateX(400px)"};
-          opacity: ${show ? "1" : "0"};
+          transform: ${isVisible ? "translateX(0)" : "translateX(400px)"};
+          opacity: ${isVisible ? "1" : "0"};
           transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         }
 
@@ -78,7 +93,7 @@ export default function Toast({ show, onClose, message, type = "success" }) {
           right: 0;
           height: 3px;
           background: ${currentColor.border};
-          animation: ${show ? "progress 5s linear" : "none"};
+          animation: ${isVisible ? "progress 5s linear" : "none"};
         }
 
         @keyframes progress {
@@ -169,7 +184,7 @@ export default function Toast({ show, onClose, message, type = "success" }) {
         }
       `}</style>
 
-      <div className={`toast-container ${show ? "toast-enter" : ""}`}>
+      <div className={`toast-container ${isVisible ? "toast-enter" : ""}`}>
         <div className="toast">
           <div className="toast-icon">
             <i className={icons[type]}></i>

@@ -1,0 +1,86 @@
+/* Cross-Platform Compatibility Fixes */
+
+/* 1. Global Box Sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Prevent Horizontal Overflow */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* 3. Container Width Adjustments for Different Screen Sizes */
+@media only screen and (max-width: 1440px) {
+  :root {
+    --container-width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  :root {
+    --container-width: 1140px;
+  }
+}
+
+/* 4. Font Size Clamping to Prevent Excessive Scaling */
+.hs-title-2,
+.hs-title-5,
+.hs-title-7,
+.marquee-style-3,
+.marquee-style-5 {
+  font-size: clamp(2rem, 8vw, 6rem) !important;
+}
+
+.section-title-large {
+  font-size: clamp(1.5rem, 5vw, 4rem) !important;
+}
+
+.section-title-repeat {
+  font-size: clamp(2rem, 7vw, 5rem) !important;
+}
+
+/* 5. Windows-Specific Font Rendering */
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* 6. Ensure Images Don't Overflow */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 7. Fix for Windows DPI Scaling Issues */
+@media screen and (min-resolution: 120dpi) {
+  .container {
+    max-width: calc(var(--container-width) * 0.9);
+  }
+}
+
+/* 8. Improved Touch Target Sizes for Windows Tablets */
+@media (pointer: coarse) {
+  button, 
+  a.btn,
+  .btn {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* 9. Prevent Text Selection Issues */
+::selection {
+  background-color: var(--color-primary, #0d6efd);
+  color: white;
+}
+
+/* 10. Fix for Parallax Performance on Windows */
+@supports not (-webkit-touch-callout: none) {
+  .parallax-section {
+    background-attachment: scroll !important;
+  }
+}

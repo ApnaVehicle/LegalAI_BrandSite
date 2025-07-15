@@ -52,9 +52,9 @@ export default function Footer5() {
         
         {/* Legal Links */}
         <div className="footer-legal-links mb-20">
-          <a href="/privacy-policy" className="text-gray-light me-3 text-decoration-none footer-link">Privacy Policy</a>
+          <a href="https://www.ligit.space/privacy-policy" className="text-gray-light me-3 text-decoration-none footer-link">Privacy Policy</a>
           <span className="text-gray">|</span>
-          <a href="/terms-conditions" className="text-gray-light ms-3 me-3 text-decoration-none footer-link">Terms & Conditions</a>
+          <a href="https://www.ligit.space/terms-conditions" className="text-gray-light ms-3 me-3 text-decoration-none footer-link">Terms & Conditions</a>
           <span className="text-gray">|</span>
           <a href="/disclaimer" className="text-gray-light ms-3 me-3 text-decoration-none footer-link">Disclaimer</a>
           <span className="text-gray">|</span>
